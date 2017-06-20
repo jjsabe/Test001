@@ -6,14 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleTest001.Classes
 {
-    internal class Database
+    internal class Entity
     {
-
         public int Id { get; set; }
         public string Name { get; set; }
-
-        public string Address { get; set; }
-
-        public string Email { get; set; }
+        public string VATCode { get; set; }
     }
 }
